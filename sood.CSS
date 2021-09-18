@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c5406c;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hex {
+    background-color: transparent;
+    border: 0px;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#color {
+    width: 180px;
+    height: 54px;
+    padding: 8px;
+    margin-top: 20px;
+}
